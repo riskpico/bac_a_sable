@@ -1,12 +1,4 @@
-<html>
-  <head>
-    <title>code de base pour le pico2</title>
-  </head>
-  <body>
-    <h1>code simple pour l'entrée analogique et sortie clignotement</h1>
-    <p>
-      <code>
-        #include <stdio.h>
+#include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 #include "hardware/adc.h"
@@ -41,7 +33,3 @@ int main() {
         sleep_ms(100);
     }
 }
-
-      </code>
-    </p>
-</html>
